@@ -55,7 +55,7 @@ notebook\_project/
 
 1. **Клонируйте репозиторий**
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/Andasbek/notebook_project.git
    cd notebook_project
     ````
 
