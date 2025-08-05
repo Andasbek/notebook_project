@@ -1,0 +1,22 @@
+{% extends "notes/base.html" %}
+
+{% block title %}Категории{% endblock %}
+
+{% block content %}
+<h1 class="mb-4 text-center">Выберите категорию</h1>
+
+<div class="row">
+    {% for cat in categories %}
+    <div class="col-md-3 mb-4">
+        <div class="card shadow-sm text-center">
+            <div class="card-body">
+                <h5 class="card-title text-capitalize">{{ cat }}</h5>
+                <a href="/notes/category/{{ cat }}/" class="btn btn-primary btn-sm mt-2">Смотреть</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<a href="/notes/" class="btn btn-secondary mt-4">На главную</a>
+{% endblock %}
