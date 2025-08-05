@@ -1,0 +1,41 @@
+# Виртуальное окружение
+venv/
+ENV/
+env/
+.venv/
+
+# Кэш и временные файлы Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Файлы и папки IDE/редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# База данных SQLite (если не нужна в репозитории)
+db.sqlite3
+
+# Миграции, если не хочешь хранить
+# (но обычно их лучше коммитить!)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Статические файлы и медиа
+staticfiles/
+media/
+
+# Файлы окружения и конфиденциальные данные
+*.env
+.env.*
+*.secret
+*.json
+
+# Файлы OS
+.DS_Store
+Thumbs.db

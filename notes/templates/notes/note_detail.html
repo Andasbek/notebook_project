@@ -1,0 +1,13 @@
+{% extends "notes/base.html" %}
+
+{% block title %}Заметка № {{ note_id }}{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Детали заметки</h1>
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title">Заметка № {{ note_id }}</h5>
+        <p class="card-text">Здесь будет текст заметки.</p>
+    </div>
+</div>
+{% endblock %}
